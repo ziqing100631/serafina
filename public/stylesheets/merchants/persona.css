@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 328px;
+    /* background: url(/images/personal/bj_login.png)no-repeat; */
+    background-color: aquamarine;
+    background-size: 100% 328px;
+}
+
+.login {
+    width: 100%;
+    height: 265px;
+}
+
+.pro_name {
+    width: 114px;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 30px;
+    /* float: left; */
+}
+
+.account {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 100px;
+    /* color: #ffffff; */
+}
+
+.account_money {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 36px;
+}
+
+.cash {
+    width: 70%;
+    height: 50px;
+    float: left;
+    text-align: right;
+    /* color: #ffffff; */
+}
+
+.arrow {
+    width: 25%;
+    height: 50px;
+    line-height: 43px;
+    float: left;
+    text-align: right;
+    font-size: 36px;
+    /* color: #ffffff; */
+}
+
+.extentd {
+    width: 49%;
+    height: 100px;
+    float: left;
+    line-height:
+}
+
+.left {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+.right_1 {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-size: 26px;
+}
+
+.right_2 {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-size: 26px;
+}
+
+.personal_list {
+    width: 100%;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.list_img {
+    width: 24%;
+    height: 90px;
+    background-color: aqua;
+    float: left;
+    margin-left: 20px;
+}
+
+.list_name {
+    width: 48%;
+    height: 90px;
+    background-color: aquamarine;
+    float: left;
+    text-align: center;
+    line-height: 90px;
+    margin-left: 20px;
+}
+
+.list_arrow {
+    width: 10%;
+    height: 90px;
+    background-color: aqua;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 90px;
+}

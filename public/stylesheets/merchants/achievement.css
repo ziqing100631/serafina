@@ -1,0 +1,310 @@
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.achieve_btn_content {
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+}
+
+.all_achieve_btn {
+    width: calc( 50% - 0.5px);
+    text-align: center;
+    float: left;
+    height: 47px;
+    font-size: 17px;
+}
+
+/* 普通样式放在点击后的样式前面 */
+
+.achieve_normal {
+    color: #222222;
+    border-bottom: 0px;
+}
+
+.achieve_pressed {
+    color: #00c04e;
+    border-bottom: solid #00c04e 3px;
+}
+
+.achieve_line {
+    display: inline-block;
+    width: 1px;
+    vertical-align: middle;
+    height: 23px;
+    background-color: #dedede;
+}
+
+.agent_achieve_btn {
+    width: calc( 50% - 0.5px);
+    text-align: center;
+    font-size: 17px;
+    float: right;
+    height: 47px;
+}
+
+#mine_achieve {
+    background-color: white;
+    width: 100%;
+    border-spacing: 0;
+    border-radius: 5px;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+#mine_achieve td {
+    border-top: 1px solid #D9D9D9;
+    text-align: center;
+    width: 18%;
+    color: #333333;
+}
+
+#agent_name_th {
+    width: 24%;
+}
+
+#total_promotion_expenses_th {
+    width: 22%;
+}
+
+.agent_table_content {
+    margin-bottom: 14px;
+}
+
+.agent_achieve_normal {
+    background-color: white;
+    width: 100%;
+    border-spacing: 0;
+    border-radius: 8px;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+.agent_achieve_normal td {
+    border-top: 1px solid #D9D9D9;
+    text-align: center;
+    width: 20%;
+    color: #333333;
+}
+
+#mine_select_date {
+    position: absolute;
+    height: 40px;
+    right: 0px;
+    line-height: 40px;
+    padding-right: 38px;
+    color: #2C2C2C;
+    font-size: 14px;
+}
+
+#agent_select_date {
+    position: absolute;
+    height: 40px;
+    right: 0px;
+    line-height: 40px;
+    padding-right: 38px;
+    color: #2C2C2C;
+    font-size: 14px;
+}
+
+.mine_date_content {
+    height: 40px;
+    background-color: #dedede;
+    position: relative;
+}
+
+.agent_date_content {
+    display: none;
+    height: 40px;
+    background-color: #DEDEDE;
+    position: relative;
+}
+
+.select_bg_content {
+    padding-left: 23px;
+    background-color: #dedede;
+    border-bottom: solid #D9D9D9 1px;
+    border-top: solid #D9D9D9 1px;
+}
+
+#select_tips {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #2c2c2c;
+    position: relative;
+}
+
+#select_agent_date_tips {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #2c2c2c;
+    position: relative;
+}
+
+.mine_table {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.agent_table {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    display: none;
+}
+
+.mine_achieve_top {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: #00c04e;
+    position: relative;
+}
+
+#mine_achieve_title {
+    width: 100%;
+    height: 46px;
+    background-color: #00c04e;
+    color: white;
+}
+
+#mine_achieve_title th {
+    text-align: center;
+}
+
+#agent_achieve_title {
+    width: 100%;
+    height: 46px;
+    color: white;
+}
+
+#agent_achieve_title th {
+    text-align: center;
+}
+
+#agent_achieve_logo {
+    width: 14px;
+    height: 17px;
+    vertical-align: middle;
+    margin-left: 20px;
+    padding-top: 13px;
+}
+
+.agent_achieve_top {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    position: relative;
+}
+
+#mine_achieve_value {
+    height: 40px;
+}
+
+#agent_achieve_value {
+    height: 40px;
+}
+
+#mine_achieve_tx {
+    font-size: 17px;
+    color: white;
+    padding-left: 8px;
+    position: absolute;
+    line-height: 1.25em;
+    padding-top: 10px;
+}
+
+#agent_achieve_tx {
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    line-height: 1.25em;
+    padding-left: 8px;
+    padding-top: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#arrow_right {
+    position: absolute;
+    right: 1px;
+    margin-right: 17px;
+    width: 8px;
+    height: 14px;
+    top: 14px;
+}
+
+#agent_empty_img {
+    width: 100%;
+    display: none;
+}
+
+.agent_name_title {
+    padding-left: 12px;
+}
+
+.product_name_title {
+    padding-left: 12px;
+}
+
+#agent_name_value {
+    padding-left: 12px;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.total_promotion_expenses_title {
+    padding-right: 12px;
+}
+
+.total_promotion_expenses_value {
+    padding-right: 12px;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.promotion_expenses_title {
+    padding-right: 12px;
+}
+
+.promotion_expenses_value {
+    padding-right: 12px;
+}
+
+.loadingBg {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0);
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.loadingicon {
+    width: 130px;
+    height: 90px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -65px;
+    margin-top: -45px;
+    display: none;
+}

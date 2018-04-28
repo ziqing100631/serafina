@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.bank {
+    width: 92%;
+    height: 84px;
+    background-color: #434281;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.dbk {
+    float: left;
+    margin: 10px 0 0 17px;
+    color: #ffffff;
+}
+
+.phone {
+    float: right;
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.42);
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.amend_bank {
+    width: 84%;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #00c04e;
+    color: #ffffff;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.bank{
+	position: relative;
+}
+.bankNo{
+	width: 90%;
+	height: 30px;
+	position: absolute;
+	bottom: 15px;
+	padding: 0px 17px;
+}
+.bankNo1 span{
+	width: 4px;
+	height: 4px;
+	display: inline-block;
+	background-color: #9099b7;
+	margin-right: 7px;
+	vertical-align: middle;
+    margin-top: -4px;
+}
+@media screen and (min-width: 318px) and (max-width: 360px) {
+.bankNo1{
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 24px
+}
+}
+@media screen and (min-width: 361px) and (max-width: 409px) {
+.bankNo1{
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 40px
+}
+}
+@media screen and (min-width: 410px) {
+.bankNo1{
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 52px
+}
+}
+.bankNo2{
+	font-size: 14px;
+	color: #fff;
+}
+.bank_color{
+    color:#fff;
+}

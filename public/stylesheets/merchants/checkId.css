@@ -1,0 +1,141 @@
+.tips_top{
+    font-size:32px;
+    text-align: left;
+    margin-top: 62px;
+    margin-left: 31px;
+    margin-right: 50px;
+}
+.input_div{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 31px;
+    margin-right: 31px;
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+.id_input{
+    font-size:17px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-bottom: solid 1px rgba(208, 208, 208, 1);
+    height: 50px;
+    line-height: 50px;
+}
+.id_input:focus
+{
+    border-bottom: solid 1px  rgba(0, 192, 78, 1);
+}
+
+.btnwrap{
+  
+
+}
+#next_phone{
+    padding: 0 35px;
+}
+.deleteimg{
+    width: 15px;
+    height: 15px;
+
+padding-left: 10px;
+padding-top: 10px;
+
+padding-right: 0;
+padding-bottom: 10px;
+
+right: 0px;
+top: 12px;
+position: absolute;
+}
+/* checkphone */
+.phone_input{
+    font-size:17px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-bottom: solid 1px rgba(208, 208, 208, 1);
+    height: 50px;
+    line-height: 50px;
+    background:white;
+}
+.get_verification_code {
+    font-size: 13px;
+    color: #999999;
+   	width: 89px;
+	height: 31px;
+    background-color: rgba(204, 204, 204, 1);
+    line-height: 31px;
+    border: none;
+    border-radius: 2px;
+    padding: 0px;
+    text-align: center;
+    float: right;
+    margin-top: 6px;
+    position: absolute;
+    right: 0px;
+	top: 8px;
+}
+.get_verification_code_success {
+    width: 78px;
+    height: 30px;
+    text-align: center;
+    line-height: 31px;
+    color: #999999;
+    border: none;
+    border-radius: 2px;
+    padding: 0px;
+    background-color: rgba(204, 204, 204, 1);
+    float: right;
+    margin-top: 6px;
+    position: absolute;
+    right: 0px;
+	top: 8px;
+}
+.get_verification_code_again {
+    width: 89px;
+	height: 31px;
+    text-align: center;
+    line-height: 31px;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    padding: 0px;
+    background-color: rgba(24, 198, 131, 1);
+   
+    float: right;
+    margin-top: 6px;
+    position: absolute;
+    right: 0px;
+	top: 8px;
+}
+/*重置密码的界面*/
+.security {
+	width: 25px;
+	height: 25px;
+	margin-top: 10px;
+	float: right;
+	   position: absolute;
+    right: 0px;
+	top: 8px;
+}
+/*充值密码成功*/
+
+.topdiv{
+	text-align: center;
+}
+.topimg{
+	width: 105px;
+	height: 112.5px;
+	margin-top: 80px;
+
+
+}
+.successtext{
+	font-size: 21px;
+	text-align: center;
+	margin-top: 35px;
+
+}

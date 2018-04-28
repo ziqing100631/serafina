@@ -1,0 +1,69 @@
+.bcfff_box{
+	width: 100%;
+	padding-left: 16px;
+	background-color: rgba(255,255,255,1);
+	/*margin-top: 8px;*/
+	border-top: 1px solid rgba(204,204,204,1);
+	border-bottom: 1px solid rgba(204,204,204,1);
+	margin-bottom: 12px;
+}
+.bcfff_box_l{
+	width: 110px;
+    height: 44px;
+    line-height: 43px;
+}
+.bcfff_box1{
+	width: 100%;
+    display: block;
+    height: 44px;
+    padding-right: 15px;
+    border-bottom: 1px solid rgba(204,204,204,1);
+}
+.bcfff_box_r input{
+	/* width: 220px; */
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-size: 15px;
+}
+.bcfff_box_r{
+	width: calc(100% - 120px);
+    line-height: 43px;
+}
+.okey{
+	width: 100%;
+	height:47px;
+	margin-top: 30px; 
+}
+.btn_y{
+	width: calc(100% - 38px);
+	height: 47px;
+	margin-left: 16px;
+	font-size: 18px;
+	line-height: 46px;
+	color: #fff;
+	border:none;
+	background-color: rgb(204,204,204);
+	border-radius: 4px;
+}
+.bcfff_box_r img {
+    height: 17px;
+    margin-top: 12px;
+}
+.citypick{
+	line-height: 43px;
+	position: relative;
+	text-align: left;
+}
+.citypick img{
+	width: 8px;
+	/* vertical-align: middle; */
+	top: 15px;
+	position: absolute;
+	right: 0;
+	/* margin-top: -3px; */
+}
+.citypick span{
+	color: rgb(156,156,156);
+}

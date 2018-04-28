@@ -1,0 +1,114 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.mine_info_bg {
+    width: 100%;
+    height: 179px;
+    background: url("/images/merchants/img_me.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#user_img {
+    margin-top: 28px;
+    width: 78px;
+    height: 78px;
+    border-radius: 41px;
+    border: solid 2px white;
+}
+
+.user_name {
+    text-align: center;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.mine_insure {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #222222;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.mine_insure_blow_line {
+    width: 100%;
+    height: 1px;
+    background-color: #dedede;
+    border-radius: 0px;
+    margin-top: 13px;
+    margin-bottom: 7px;
+}
+
+.mine_insure_green_line {
+    width: 72px;
+    margin-top: -2px;
+    background-color: #00c04e;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+}
+
+.mine_order_list {
+    padding-top: 23px;
+    /* padding-bottom: 10px; */
+    /* display: none; */
+}
+
+.empty_order_list {
+    margin-top: auto;
+    margin-bottom: auto;
+    position: absolute;
+    top: 130px;
+    display: none;
+}
+
+#empty_order_img {
+    width: 100%;
+}
+
+.goto_buy_parent {
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-bottom: 12px;
+}
+
+#order_status_img {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 22%;
+    right: 16px;
+}
+
+.order_content {
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    padding: 16px;
+    margin: 0 16px 17px 16px;
+}
+
+.insure_name {
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #0b0b0b;
+}
+
+#order_no {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #898989;
+}

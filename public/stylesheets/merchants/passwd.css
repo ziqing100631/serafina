@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: #0000;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.change_passwd{
+    display: block;
+    height: 50px;
+    border-bottom: 1px solid #d7d7d7;
+    margin-left:30px;
+    line-height: 50px;
+    position: relative;
+    font-size: 17px;
+}
+.user_phone{
+    display: block;
+    height: 50px;
+    border-bottom: 1px solid #d7d7d7;
+    margin-left:30px;
+    line-height: 50px;
+    position: relative;
+    font-size: 17px;
+}
+.arrows{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    line-height: 1;
+    margin: -6px 0 0;
+}
+.arrows img{
+    margin-left: 7px;
+}
+#notice_tip{
+	font-size: 14px;
+    color: #9c9c9c;
+    margin: 18px 25px 40px 25px;
+}
+#notice_tip strong{
+	font-weight: normal;
+	color: #00c04e;
+}
+.secede{
+  width: 88%;
+  height: 46px;
+  margin:0 auto;
+  line-height: 46px;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 18px;
+  background-color: #ff5555;
+  margin-top: 30px;
+  color: #fff;
+}

@@ -1,0 +1,10 @@
+body * {
+  color: red;
+  background: image("aaa.png");
+  width: 975px/5;
+  color: red;
+  font-size: 12px;
+  margin: 0 10px 10px; }
+
+h1 {
+  color: red; }

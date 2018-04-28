@@ -1,0 +1,148 @@
+<title>我的客服</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/merchants/passwd.css">
+<link rel="stylesheet" type="text/css" href="/stylesheets/customer.css" /> 
+<script src="/javascripts/common/weui.js"></script>
+<script src="/javascripts/common/zepto.js"></script>
+<style>
+    body{
+        background-color: #ffffff;
+    }
+</style>
+<body>
+    <div class="wallet_page_index">
+    <div class="change_all">
+        <a class="change_passwd" id = "change_passwd_one">什么是推广费？
+            <span class="arrows"> 
+                <img width="8px"; src="/images/img_achievement_arrow.png">
+            </span>
+        </a>
+        <a class="change_passwd" id = "change_passwd_two">什么是待入账？
+            <span class="arrows">
+                <img width="8px"; src="/images/img_achievement_arrow.png">
+            </span>
+        </a>
+        <a class="change_passwd" id = "change_passwd_four">什么是冻结？
+            <span class="arrows">
+                <img width="8px"; src="/images/img_achievement_arrow.png">
+            </span>
+    <div class="pickermain"></div>
+        </a>
+        <a class="change_passwd" id = "change_passwd_three">如何联系米粒？
+            <span class="arrows">
+                <img width="8px"; src="/images/img_achievement_arrow.png">
+            </span>
+        </a>
+    </div>
+
+
+    </div>
+    <!--遮罩-->
+
+    <div class="picker" style="display:none;"></div>
+    <div id="optione" class="optione" style="display:none;z-index:1000;">
+        <div class="balance_text">
+            <p class="bulb">什么是推广费</p>
+            <p class="bulb_a" id="option_btn_one" >
+                <img style="width:13px;height:13px;margin-top: 15px;" src="/images/button_close.png">
+            </p>
+        </div>
+        <div class="bulb_text">当您通过米粒代理人工具分享保险产品给客户或代客下单，完成支付、出单，即可获得一定额度的推广费。具体金额可以在“产品推广”功能中选择产品后查看。</div>
+
+    </div>
+
+    <div id="optione_one" class="optione" style="display:none;z-index:1000;">
+        <div class="balance_text">
+            <p class="bulb">什么是待入账</p>
+            <p class="bulb_a" id="option_btn_two">
+                <img style="width:13px;height:13px;margin-top: 15px;" src="/images/button_close.png">
+            </p>
+        </div>
+        <div class="bulb_text">保险出单成功后到保单生效前，推广费计入待入账。保单生效后，将从待入账计入已入账。</div>
+    </div>
+    <div id="optione_three" class="optione" style="display:none;z-index:1000;">
+        <div class="balance_text">
+            <p class="bulb">什么是冻结</p>
+            <p class="bulb_a" id="option_btn_four">
+                <img style="width:13px;height:13px;margin-top: 15px;" src="/images/button_close.png">
+            </p>
+        </div>
+        <div class="bulb_text">当上级发现下级在推广过程中有违规操作时，可以对下级账号进行冻结。冻结后，下级登录工具只可以进行查看。</div>
+    </div>
+
+<div id="optione_two" class="optione" style="display:none;z-index:1000;">
+    <div class="balance_text">
+        <p class="bulb">如何联系米粒？</p>
+        <p class="bulb_a" id="option_btn_three">
+            <img style="width:13px;height:13px;margin-top: 15px;" src="/images/button_close.png">
+        </p>
+    </div>
+    <div class="bulb_text">您可以拨打客服热线：400-119-8989或在“米粒保险”微信公众号留言联系到我们。</div>
+
+</div>
+
+</body>
+<script>
+    //推广费
+    $("#change_passwd_one").click(function () {
+        $(".picker").show();
+        $("#optione").show();
+        $("#option_btn_one").show();
+        $("body").css("overflow", "hi dden"); //禁止遮罩下页面滑动
+    });
+    $("#option_btn_one").click(function () {
+        $(".picker").hide();
+        $("#optione").hide();
+        $("#option_btn_one").hide();
+        $("body").css("overflow", "scroll"); //关闭遮罩下页面滑动
+    });
+
+    //待入账
+    $("#change_passwd_two").click(function () {
+            $(".picker").show();
+            $("#optione_one").show();
+            $("#option_btn_two").show();
+            $("body").css("overflow", "hi dden"); //禁止遮罩下页面滑动
+        });
+        $("#option_btn_two").click(function () {
+            $(".picker").hide();
+            $("#optione_one").hide();
+            $("#option_btn_two").hide();
+            $("body").css("overflow", "scroll"); //关闭遮罩下页面滑动
+        });
+
+    //冻结
+    $("#change_passwd_four").click(function () {
+            $(".picker").show();
+            $("#optione_three").show();
+            $("#option_btn_four").show();
+            $("body").css("overflow", "hi dden"); //禁止遮罩下页面滑动
+        });
+        $("#option_btn_four").click(function () {
+            $(".picker").hide();
+            $("#optione_three").hide();
+            $("#option_btn_four").hide();
+            $("body").css("overflow", "scroll"); //关闭遮罩下页面滑动
+        });
+    //联系米粒
+    $("#change_passwd_three").click(function () {
+        $(".picker").show();
+        $("#optione_two").show();
+        $("#option_btn_three").show();
+        $("body").css("overflow", "hi dden"); //禁止遮罩下页面滑动
+    });
+    $("#option_btn_three").click(function () {
+        $(".picker").hide();
+        $("#optione_two").hide();
+        $("#option_btn_three").hide();
+        $("body").css("overflow", "scroll"); //关闭遮罩下页面滑动
+    });
+
+    function pickerhide() { //取消遮罩
+        $(".pickermain").html('');
+    };
+
+</script>

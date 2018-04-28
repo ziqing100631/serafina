@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(241, 241, 241);
+}
+.bcfff_box {
+    width: 100%;
+    padding-left: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    border-top: 1px solid rgba(204, 204, 204, 1);
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+    margin-bottom: 12px;
+}
+
+.bcfff_box_l {
+    width: 100px;
+    height: 44px;
+    line-height: 43px;
+}
+
+.bcfff_box1 {
+    width: 100%;
+    display: block;
+    height: 44px;
+    padding-right: 15px;
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+}
+
+.bcfff_box_r input {
+    width: 220px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-size: 15px;
+}
+
+.bcfff_box_r {
+    width: calc(100% - 100px);
+    line-height: 43px;
+}
+
+.bcfff_box_al {
+    width: 100%;
+    height: 68px;
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+}
+
+.bcfff_box_al span {
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.bcfff_box_al input {
+    width: 60%;
+    font-size: 30px;
+}
+
+.showmessage {
+    height: 44px;
+    line-height: 43px;
+}
+
+.cc {
+    color: rgb(156, 156, 156);
+}
+
+.cr {
+    color: red;
+}
+
+.cgre {
+    color: #00c24f;
+}
+
+.withdrawa {
+    color: #00c24f;
+    height: 44px;
+    line-height: 43px;
+}
+
+.wxtip {
+    font-size: 14px;
+    padding: 0px 11px 10px 16px;
+}
+
+.okey {
+    width: 100%;
+    height: 47px;
+    margin-top: 30px;
+}
+
+.btn_y {
+    width: calc(100% - 38px);
+    height: 47px;
+    margin-left: 16px;
+    font-size: 18px;
+    line-height: 46px;
+    color: #fff;
+    border: none;
+    background-color: rgb(204, 204, 204);
+    border-radius: 4px;
+    opacity: 1;
+}
+
+#showIOSDialog2 {
+    width: 17px;
+    margin-top: 12px;
+}
+
+#bank_card img {
+    width: 8px;
+    margin-top: 15px;
+}
+.bankcolor{
+    color:rgb(156,156,156);
+}
+.btn_color{
+    color:#fff;
+}
+.js_dialog{
+    display: none;
+}
