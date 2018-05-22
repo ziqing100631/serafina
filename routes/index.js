@@ -9,4 +9,10 @@ router.get('/', function(req, res, next) {
 router.get('/index', function(req, res, next) {
   res.render('page/index');
 });
+router.get('/homepage', function(req, res, next) {
+  res.render('page/homepage');
+});
+router.get('/about', function(req, res, next) {
+  res.render('page/about');
+});
 module.exports = router;

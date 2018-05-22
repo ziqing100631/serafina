@@ -1,14 +1,119 @@
-<title>个人博客-首页</title>
+<title>主页</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
-<!-- <link rel="stylesheet" type="text/css" href="/stylesheets/merchants/passwd.css"> -->
-<!-- <link rel="stylesheet" type="text/css" href="/stylesheets/customer.css" />  -->
-<!-- <script src="/javascripts/common/weui.js"></script> -->
-<!-- <script src="/javascripts/common/zepto.js"></script> -->
+<link rel="stylesheet" type="text/css" href="/stylesheets/merchants/passwd.css">
+<link rel="stylesheet" type="text/css" href="/stylesheets/customer.css" />
+<link rel="stylesheet" type="text/css" href="/stylesheets/home_page/index.css" />
+<script src="/javascripts/common/weui.js"></script>
+<script src="/javascripts/common/zepto.js"></script>
 <style>
-    body{
-        background-color: #ffffff;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .head_title {
+        width: 90%;
+        height: 34px;
+        color: #fff;
+        min-width: 1080px;
+        margin-top: 40px;
+        padding: 0 5%;
+    }
+
+    .title_logo {
+        float: left;
+    }
+
+    .tab_header {
+        float: right;
+    }
+
+    .tab_txt {
+        margin-right: 50px;
+        font-size: 20px;
+    }
+
+    .head_text {
+        height: 100px;
+        text-align: center;
+        color: #fff;
+        margin-top: 50px;
+    }
+
+    .nav li {
+        float: left;
+        width: 150px;
+        text-align: center;
+        list-style-type: none;
+    }
+
+    .nav li a {
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .nav li.on a,
+    .nav li a:hover {
+        padding-bottom: 5px;
+        border-bottom: 2px solid #3de33f;
+        color: #3de33f;
+    }
+
+    .nav_a {
+        float: right;
+    }
+
+    .guarantee {
+        font-size: 88px;
+        color: #00f7ff;
+    }
+
+    .scheme {
+        font-size: 38px;
+
+        color: #43e4e9;
     }
 </style>
+
+<body>
+    <div class="header">
+        <div class="wapper"></div>
+        <div class="head_title">
+            <img class="img_logo" src="/images/home_page/img_logo.png">
+            <div class="nav_a">
+                <ul class="nav">
+                    <li id="index">
+                        <a href="/">首页</a>
+                    </li>
+                    <li id="list">
+                        <a href="index">场景解决方案</a>
+                    </li>
+                    <li id="channel">
+                        <a href="homepage">保险产品</a>
+                    </li>
+                    <li id="about">
+                        <a href="about">关于米粒</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="head_text">
+            <p class="guarantee">让保障无处不在</p>
+            <p class="scheme">专注行业场景化保险解决方案</p>
+        </div>
+    </div>
+
+
+
+
+</body>
+<script>
+    function navCheck($dom) {
+        $dom.addClass("on");
+        $dom.siblings().removeClass("on")
+    };
+    navCheck($("#channel"));
+</script>
